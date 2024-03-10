@@ -1,5 +1,5 @@
-var buttonOn = false;
-var timerId;
+var buttonOn = true;
+var timerId = startTimer();
 controlButton = document.querySelector(".slider__control-button");
 controlButton.style.setProperty("--button-progress-delay", slideTime + "ms");
 controlButton.addEventListener("click", (event) => {
